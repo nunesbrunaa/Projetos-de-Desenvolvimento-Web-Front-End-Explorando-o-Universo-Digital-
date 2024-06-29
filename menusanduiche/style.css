@@ -1,0 +1,15 @@
+ @import url("header.css"); /*/import do header.css/ */
+@import url("cabecalho.css");
+
+:root{
+    /* variaveis */
+    --cor-de-fundo: #EBECEE;
+    --bg-color-header: #FFFFFF;
+    --cor-de-titulo: #0088EB;
+    --cor-degrade: linear-gradient(97.54deg, #005221 35%, #00BA4B 65%);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
