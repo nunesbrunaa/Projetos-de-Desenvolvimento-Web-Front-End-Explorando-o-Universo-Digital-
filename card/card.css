@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+}
+
+header{
+    height: 50px;
+    width: 100vw;
+    background-color: #ffe600;
+    position: fixed;
+}
+
+.catalogo-produto{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.card-produto{
+    background-color: white;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px gray (0, 0, 0, 2);
+    padding: 20px;
+    margin: 0;
+}
+
+.card-produto img{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid gray;
+
+}
+
+.card-produto h2{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.card-produto p{
+    font-size: 14px;
+}
+
+.price{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.card-produto button{
+    background-color: blue;
+    border: none;
+    color: antiquewhite;
+    cursor: white ;
+    cursor: pointer
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.card.card-produto button:hover{
+    background-color: #0056bf;
+}
+
+/* incluir img */
+.mercado-logo{
+    background-image: url(pao/logo-pt__large_25years_v2.png);
+    height: 100%;
+    width: 134px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin: 10px 0 0 10px;
+}
