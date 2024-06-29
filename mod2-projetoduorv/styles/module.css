@@ -1,0 +1,249 @@
+.cabecalho__menu-burguer{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--cor-cta);
+    background-image: url(elementos/menupaleta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;    
+}
+
+.container__img{
+    width: 0.5rem;
+    height: auto;
+    padding: 1.2rem;
+}
+
+.container__button{
+    display: none;
+
+}
+
+.lista-menu__item{
+    padding: 1rem;
+}
+
+.cabecalho__logo{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.container__icone{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 1rem;
+}
+
+.bgresponsivo{
+    margin-top: 5rem;
+}
+
+.bgresponsivo-retangulo___secundaria{
+    width: 11.5rem;
+    height: 26rem;
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
+}
+
+.bgresponsivo-retangulo__azulextra{
+    width: 16.5rem;
+    height: 29.5rem;
+    background-color: var(--cor-azul-extra);
+    border-radius: 10px;
+}
+
+.bgresponsivo-retangulo__amareloextra{
+    width: 10.5rem;
+    height: 34.5rem;
+    background-color: var(--cor-amarelo-extra);
+    border-radius: 10px;
+}
+
+.parte1-logo{
+    width: 40%;
+    height: auto;   
+}
+
+.parte1-texto__bilingue{
+    margin-left: 3rem;
+    
+}
+
+.parte1-texto__conheca{
+    margin-left: 6rem;
+   
+}
+
+.parte1-texto__cta{
+    margin-left: 12rem;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-pagination{
+    position: initial; 
+}
+
+.parte3{
+    padding-left:5rem;
+    padding-right: 5rem;
+}
+
+.rodape__icone{
+    width: 1rem;
+    height: 1rem;
+    padding: 0 0.5rem;
+}
+
+.rodape__informacoes{
+    color: var(--cor-de-fundo);
+    font-size: 0.6rem;
+    align-items: center;
+    margin-right: 1rem; 
+}
+
+@media screen and (min-width: 25rem)  and (max-width: 47rem){
+    .container__img{
+        width: 0.8rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .lista-menu__item{
+        padding: 2rem;
+    }
+    
+    .cabecalho__logo{
+        width: 3.5rem;
+        height: auto;
+    }
+    
+    .container__icone{
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0 1rem;
+    }
+    
+    .bgresponsivo-retangulo___secundaria{
+        width: 27rem;
+        height: 48rem;
+    }
+    
+    .bgresponsivo-retangulo__azulextra{
+        width: 24.75rem;
+        height: 53.25rem;        
+    }
+    
+    .bgresponsivo-retangulo__amareloextra{
+        width: 15.75rem;
+        height: 60.75rem;        
+    }
+
+    .parte1-logo{
+        width: 22rem;
+        height: auto;   
+    }
+
+    .parte1-texto__bilingue{
+        margin-left: 7rem;
+        
+    }
+
+    .parte1-texto__conheca{
+        margin-left: 12rem;
+    
+    }
+
+    .parte1-texto__cta{
+        margin-left: 12rem;
+    }
+
+    .rodape__icone{
+        width: 1rem;
+        height: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .rodape__informacoes{
+        color: var(--cor-de-fundo);
+        font-size: 0.6rem;
+        align-items: center;
+        margin-right: 1rem; 
+    }
+}
+
+@media screen and (min-width: 47rem){
+    .container__img{
+        width: 3rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .lista-menu__item{
+        padding: 1.5rem;
+    }
+    
+    .cabecalho__logo{
+        width: 4rem;
+        height: auto;
+    }
+    
+    .container__icone{
+        width: 3rem;
+        height: 3rem;
+        padding: 0 1rem;
+    }
+    
+    .bgresponsivo-retangulo___secundaria{
+        width: 34rem;
+        height: 24rem;
+    }
+    
+    .bgresponsivo-retangulo__azulextra{
+        width: 43.25rem;
+        height: 28rem;        
+    }
+    
+    .bgresponsivo-retangulo__amareloextra{
+        width: 20rem;
+        height: 36.75rem;        
+    }
+    
+    .parte1-logo{
+        width: 25rem;
+        height: auto;   
+    }
+
+    .parte1-texto__bilingue{
+        margin-left: 7rem;
+        
+    }
+
+    .parte1-texto__conheca{
+        margin-left: 12rem;
+    
+    }
+
+    .parte1-texto__cta{
+        margin-left: 18rem;
+    }
+
+    .parte3{
+        margin: 3rem;
+    }
+
+    .rodape__icone{
+        width: 1rem;
+        height: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .rodape__informacoes{
+        color: var(--cor-de-fundo);
+        font-size: 0.6rem;
+        align-items: center;
+        margin-right: 1rem; 
+    } 
+}

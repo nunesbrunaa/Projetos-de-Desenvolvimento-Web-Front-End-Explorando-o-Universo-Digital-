@@ -1,0 +1,276 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100rem;
+    width: 25rem;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.lista-menu{
+    display: none;
+    position: absolute; 
+    z-index: 12;
+    top: 2.9rem;
+    left: 0rem;
+}
+
+.container__button:checked ~ .lista-menu{
+    display: block;
+    background-color: var(--bg-color-header);
+}
+
+.bgresponsivo{
+    width: 25rem;
+    
+    flex-grow: 1;
+    float: inline-start;
+    display: flex;
+    flex-direction: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bgresponsivo-retangulo___secundaria{
+    position: absolute;
+    z-index: 10;
+    left: 0rem;
+    top: 18.5rem;
+}
+
+.bgresponsivo-retangulo__azulextra{
+    position: absolute;
+    z-index: 9;
+    left: 8.5rem;
+    top: 15rem;
+}
+
+.bgresponsivo-retangulo__amareloextra{
+    position: absolute;
+    z-index: 8;
+    left: 14.5rem;
+    top: 10rem;
+}
+
+.parte1{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 11;
+    left: 0rem;
+    top: 13rem;
+}
+
+.parte1-texto{
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.carrossel__titulo{
+    color: var(--cor-de-titulo);
+    background-color: var(--bg-color-header);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.carrossel{
+    width: 25rem;
+    z-index: 12;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    display: none;
+}
+
+.parte3{
+    width: 80%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 11;
+    left: 0rem;
+    top: 60rem;
+}
+
+.rodape{
+    height: 4rem;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ @media screen and (min-width: 25rem)  and (max-width: 47rem){
+    body{
+        height: 150rem;
+        width: 47rem;
+    }
+    
+    .lista-menu{
+        position: absolute; 
+        z-index: 12;
+        top: 3.5rem;
+        left: 3.55rem;
+    }    
+    
+    .bgresponsivo-retangulo___secundaria{
+        position: absolute;
+        z-index: 10;
+        left: 0rem;
+        top: 22.75rem;
+    }
+    
+    .bgresponsivo-retangulo__azulextra{
+        position: absolute;
+        z-index: 9;
+        left: 17rem;
+        top: 17.5rem;
+    }
+    
+    .bgresponsivo-retangulo__amareloextra{
+        position: absolute;
+        z-index: 8;
+        left: 31rem;
+        top: 10rem;
+    }
+
+    .parte1{
+        height: 50rem;
+        position: absolute;
+        z-index: 11;
+        left: 0rem;
+        top: 13rem;
+    }
+
+    .parte1-texto{
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+
+    
+    .carrossel{
+        width: 47rem;
+        position: absolute;
+        z-index: 12;
+        top: 70rem;
+    }
+    
+    .parte3{        
+        width: 80%;
+        height: 40rem;
+        position: absolute;
+        z-index: 11;
+        left: 0rem;
+        top: 95rem;
+    }
+    
+    .rodape{
+        height: 4rem;        
+     }
+}
+
+@media screen and (min-width: 47rem){
+    body{
+        height: 130rem;
+        width: 100%;
+    }
+    
+    .container__img{
+        position: absolute; 
+        z-index: 12;
+        top: 0.6rem;
+        left: 10rem;
+    }
+
+    .lista-menu{
+        position: absolute; 
+        z-index: 12;
+        top: 4.1rem;
+        left: 0rem;
+    }    
+    
+    .bgresponsivo-retangulo___secundaria{
+        position: absolute;
+        z-index: 10;
+        left: 0rem;
+        top: 23rem;
+    }
+    
+    .bgresponsivo-retangulo__azulextra{
+        position: absolute;
+        z-index: 9;
+        left: 27.6rem;
+        top: 19rem;
+    }
+    
+    .bgresponsivo-retangulo__amareloextra{
+        position: absolute;
+        z-index: 8;
+        left: 61rem;
+        top: 10.25rem;
+    }
+
+    .parte1-logo{
+        position: absolute;
+        z-index: 11;
+        left: 5rem;
+        top: -2rem;
+    }
+
+    .parte1-texto{
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        z-index: 11;
+        left: 25rem;
+        top: 0;
+    }
+    
+    .carrossel{
+        width: 100%;
+        position: absolute;
+        z-index: 12;
+        left: 0rem;
+        top: 46rem;
+    }
+    
+   
+    
+    .parte3{        
+        width: 80%;
+        height: 30rem;
+        position: absolute;
+        z-index: 11;
+        top: 87rem;
+    }
+    
+    .rodape{
+        height: 4rem;        
+     }
+ }
+ 
