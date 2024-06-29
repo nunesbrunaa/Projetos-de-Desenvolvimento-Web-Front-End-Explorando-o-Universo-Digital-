@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Duo RV</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div >
+                <img class="cabecalho__logo" src="styles/elementos/logo header.png" alt="logo">
+            </div>
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__button">
+                <label for="menu">
+                    <span class="cabecalho__menu-burguer container__img"></span>
+                </label>
+                <ul class="lista-menu">
+                            <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Sobre</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Programa</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Contato</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Depoimentos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <a href="#">
+                    <img src="styles/elementos/login.png" alt="login" class="container__icone">
+                </a>
+            
+                <a href="#">
+                    <img src="styles/elementos/sign up.png" alt="sign up" class="container__icone">
+                </a>
+            
+                <a href="#">
+                    <img src="styles/elementos/laranja.png" alt="carinho" class="container__icone">
+                </a>
+            </div>
+            <div>
+                <img class="cabecalho__logo" src="styles/elementos/logo header rev.png" alt="logo">
+            </div>
+        </header>
+        
+        <section class="bgresponsivo">                       
+            <div class="bgresponsivo-retangulo___secundaria">
+
+            </div>
+            <div class="bgresponsivo-retangulo__azulextra">
+
+            </div>
+            <div class="bgresponsivo-retangulo__amareloextra">
+
+            </div>
+        </section>
+        
+        <div class="parte1">
+            <img src="styles/elementos/logo main.png" alt="logo" class="parte1-logo">
+        <div class="parte1-texto">
+                <h3 class="parte1-texto__bilingue">Quer se tornar bilíngue 
+                    <br>morando no Brasil?</h3>
+                <h1 class="parte1-texto__conheca">Conheça nossos 
+                    <br>programas!</h1>
+                <button class="parte1-texto__cta">Quero falar com o especialista ➔ </button>
+        </div>
+        </div>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">O QUE IRÁ ENCONTRAR:</h2>
+            <div class="swiper">
+                <div class="swiper-pagination"></div>         
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="styles/elementos/Group 1.png" alt="descrição">
+                    </div>         
+                    <div class="swiper-slide">
+                        <img src="styles/elementos/Group 2.png" alt="descrição">
+                    </div>         
+                    <div class="swiper-slide">
+                        <img src="styles/elementos/Group 3.png" alt="descrição">
+                    </div>
+                </div>         
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>                  
+            </div>
+        </section>
+            
+            
+        <div class="parte3">
+            <h4 class="parte3-titulo">Quem somos</h4>
+            <p class="parte3-paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>           
+
+        <footer class="rodape">
+            <div class="rodape__redessociais">
+                <img class="rodape__icone" src="styles/elementos/whatsapp.png" alt="whatsapp">
+                <img class="rodape__icone" src="styles/elementos/instagram.png" alt="insta">
+                <img class="rodape__icone" src="styles/elementos/tik-tok.png" alt="tiktok">
+                <img class="rodape__icone" src="styles/elementos/twitter.png" alt="x">
+                <img class="rodape__icone" src="styles/elementos/linkedin.png" alt="linkedin">
+            </div> 
+            <div>   
+                <p class="rodape__informacoes">Política de Privacidade • Termos de serviços.
+                    <br>Copyright © Bruna Nunes.</p>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 1,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>    
+    </body>
+</html>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("styles/base.css");
+@import url("styles/layout.css");
+@import url("styles/module.css");
+@import url("styles/reset.css");
+@import url("styles/state.css");
+@import url("styles/theme.css");
+
+:root{
+    /* variaveis */
+    --cor-primaria: #3361AC;
+    --cor-secundaria: #E9AF31;
+    --cor-de-fundo: #E6E6DC;
+    --cor-paragrafo: #102042;
+    --cor-de-titulo: #FFFFFF;
+    --cor-cta: #FF4500;
+    --cor-amarelo-extra: #E8C766;
+    --cor-azul-extra: #162F65;
+}
+
+body{
+    background-color: var(--cor-primaria);
+    font-family: "Istok Web";
+}
+
