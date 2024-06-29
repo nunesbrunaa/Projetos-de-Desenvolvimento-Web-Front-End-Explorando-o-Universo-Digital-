@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-container: #ffd6cc;
+    --bg-task: #ffebe6;
+    --btn-hover: #cc33ff;
+    --bg-btn: #9900cc;
+    --radius: 10px;
+    --completo: #ff3300;
+}
+
+body{
+    height: 100vh;
+    background-image: url("Lugeer_Pattern_Explore_the_depths_of_the_universe_with_a_galax_0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container{
+    background-color: var(--bg-container);
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #121212;
+    transition: background-color 10s all;
+}
+
+input{
+    padding: 0.625rem;
+    width: 200px;
+    border: 1px solid var(--btn-hover);
+    border-radius: var(--radius);
+}
+
+button{
+    padding: 0.625rem 1.25rem;
+    border: none;
+    background-color: var(--bg-btn);
+    color: var(--bg-container);
+    border-radius: var(--radius);
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: var(--btn-hover);
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    background-color: var(--bg-task);
+    padding: 10px;
+    border-radius: var(--radius);
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li.completo > p{
+    text-decoration: line-through;
+    color: var(--completo);
+}
+
+.legenda{
+    font-size: 0.6rem;
+    font-weight: 100;
+    color: var(--bg-btn);
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
