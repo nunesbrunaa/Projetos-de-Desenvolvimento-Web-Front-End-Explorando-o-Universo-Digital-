@@ -6,74 +6,18 @@ problemas e desenvolvimento de pequenos projetos ☼
 
 ### Introdução ao Desenvolvimento Web
 
-Conceitos básicos:
-☼ Estrutura da internet;
-☼ Como as informações trafegam e são apresentadas em um browser
-☼ O domínio da linguagem HTML e CSS
-☼ Conhecimento do protocolo TCP/IP 
-☼ Variações do HTTP.
-
-
-1. Introdução à estrutura básica da internet; modelo cliente servidor;
-protocolos de comunicação TCP/IP, HTTP, HTTPS; navegadores de
-internet; editores de HTML. 2. Linguagem e estrutura de marcação HTTP; componentes e TAGs do
-HTML; estilo CSS
-
-1. Conhecer a linguagem de marcação HTTP e a estrutura dos estilos
-CSS;
-2. Codificar páginas Web usando HTTP e CSS. 3. Desenvolver páginas Web estáticas usando HTML e CSS
-
-3
+##### Conceitos básicos:
+☼ Estrutura da internet ☼ Como as informações trafegam e são apresentadas em um browser ☼ O domínio da linguagem HTML e CSS ☼ Conhecimento do protocolo TCP/IP ☼ Variações do HTTP ☼ Modelo cliente servidor ☼ Editores de HTML e CSS ☼
 
 ### Design de Páginas Web
-conceitos básicos sobre como produzir uma boa experiência ao
-usuário de páginas web, buscando o conforto visual, a rapidez de acesso
-à informação e os aspectos de acessibilidade e portabilidade entre
-dispositivos. Em um contexto onde o tempo e a aparência e condições
-de acesso à página são diferenciais importantes para um melhor
-engajamento do usuário, o domínio de tais conceitos é essencial para o
-profissional da área de desenvolvimento Web Front-end
 
-presentar as principais noções da área de Interação Humano
-Computador (IHC);
-Exercitar o uso de bibliotecas responsivas no desenvolvimento de
-páginas web estáticas;
-Apresentar padrões de desenvolvimento web
-
-Usabilidade; experiência do usuário (User Experience - UX); noções de
-interação humano computador (IHC); layouts responsivos e
-responsividade; acessibilidade; ferramentas de design visual; melhores
-práticas de tipografia e
-
-. Elaborar páginas web com foco na experiência do usuário, considerando aspectos de conforto visual, usabilidade, navegabilidade, responsividade e acessibilidade; aplicar padrões de desenvolvimento
-Web. 2. Integrar conceitos de usabilidade no desenvolvimento de interfaces
-web.
-
-
+☼ Experiência do usuário (User Experience - UX) ☼ Conforto visual ☼ rapidez de acesso ☼ informação e os aspectos de acessibilidade e portabilidade entre
+dispositivos. ☼ noções da área de Interação Humano Computador (IHC) ☼ Exercitar o uso de bibliotecas responsivas no desenvolvimento de páginas web estáticas ☼ padrões de desenvolvimento web ☼ ferramentas de design visual ☼ melhores práticas de tipografia ☼
 
 ### Linguagem Javascript para Web
 
-O componente curricular de Linguagem Javascript para Web fornece a
-capacidade de programação de páginas web, sendo a principal
-linguagem na comunidade de desenvolvimento web.
-Apresentar como manipular elementos de página web usando Javascript
-
-Apresentar a Linguagem Javascript;
-Executar pequenos programas em interfaces web
-
-Introdução à linguagem Javascript e suas estruturas de controle;
-Javascript na web; objeto DOM; objetos window, document, elementos
-da página, eventos; manipulação de elementos; expressões regulares;
-armazenamento client-side; API de arquivos; geolocalização; web
-sockets; representação gráfica e elementos gráficos; aspectos de
-segurança
-
-1. Construir programas usando linguagem script para web; manipular
-elementos de uma página web; desenvolver códigos executados em
-browsers de internet; desenvolver páginas dinâmicas; empregar
-bibliotecas no desenvolvimento web. 2. Manipular páginas Web usando Javascript
-
-
+☼ Apresentar Linguagem Javascript para Web ☼ capacidade de programação de páginas web, sendo a principal linguagem na comunidade de desenvolvimento web ☼ estruturas de controle ☼ objeto DOM ☼ objetos window ☼ Eventos ☼ representação gráfica e elementos gráficos ☼ Aspectos de segurança ☼ empregar ☼ Manipular páginas Web usando Javascript ☼
+bibliotecas no desenvolvimento web.
 
 ### Criação e Edição Multimídia
 
