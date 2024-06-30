@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+:root{
+    --border-radius-tamanho: 5px;
+    --bg-fundo-color: #f2f2f2;
+    --bg-tecla: #d9d9d9;
+    --cor-clara: #e6e6e6;
+    --cor-escura: #bfbfbf;   
+    --cor-font: #7f7b7b;
+    --font-tecla:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {    
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box; 
+    font-family: "Ephesis";
+}
+
+body{
+    width: 24.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-fundo-color);
+    position: relative;
+    left: 8rem;
+    top: 5rem;
+}
+
+h1{
+    color: var(--cor-escura);
+    font-size: 3rem;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+}
+
+.sampler{
+    padding-bottom: 0;
+    position: relative;
+    right: 3rem;
+    top: 0.8rem;
+}
+
+.digital{
+    padding-bottom: 0;
+    position: relative;
+    left: 3rem;
+}
+
+.teclas {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.tecla {
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-tecla);
+    border-bottom: 10px solid var(--cor-escura);
+    border-right: 8px solid var(--cor-clara);
+    border-radius: 5px;
+    margin: 0.1rem;
+    cursor: pointer;
+}
+
+kbd{
+    font-size: 2.5rem;
+    color: var(--cor-escura);    
+    font-family: var(--font-tecla);
+}
+
+.sound{
+    color: var(--cor-font);
+    font-size: 1.5rem;
+}
