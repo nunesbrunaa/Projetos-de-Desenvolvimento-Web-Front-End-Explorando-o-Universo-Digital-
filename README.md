@@ -6,8 +6,9 @@ problemas e desenvolvimento de pequenos projetos ☼
 
 ### Introdução ao Desenvolvimento Web
 
-##### Conceitos básicos:
 ☼ Estrutura da internet ☼ Como as informações trafegam e são apresentadas em um browser ☼ O domínio da linguagem HTML e CSS ☼ Conhecimento do protocolo TCP/IP ☼ Variações do HTTP ☼ Modelo cliente servidor ☼ Editores de HTML e CSS ☼
+
+  #### Projetos do Modulo 1:
 
 ### Design de Páginas Web
 
@@ -30,4 +31,4 @@ dispositivos ☼ Noções da área de Interação Humano Computador (IHC) ☼ Ex
 
 ☼ Exercitar a prática de desenvolvimento web-front end ☼ Apresentar as etapas de desenvolvimento de interfaces web ☼ aplicações de página única ☼ programação web baseada em componentes ☼ programação web declarativa ☼ frameworks React, Vue e Angular ☼ Declarar, manipular e especificar componentes e TAGs ☼
 
-###### ☼ Desenvolvimento prático de uma interface de usuário em Javascript com o auxílio de bibliotecas modernas e consagradas na área de desenvolvimento web front-end ☼
+##### ☼ Desenvolvimento prático de uma interface de usuário em Javascript com o auxílio de bibliotecas modernas e consagradas na área de desenvolvimento web front-end ☼
