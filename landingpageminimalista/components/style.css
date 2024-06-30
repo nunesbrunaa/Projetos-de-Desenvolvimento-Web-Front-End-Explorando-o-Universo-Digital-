@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --background-color: azure;
+    --font-color: #167777;  
+}
+
+
+body{
+    background-color: var(--background-color);
+    font-family: "Courier Prime";
+    color: var(--font-color);
+    border: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+header{
+    height: 7rem;
+    border-bottom: 0.2rem solid;
+}
+
+.profissao{
+    padding-bottom: 2rem;
+    position: relative;
+    left: 4rem;
+    top: 1.5rem;
+}
+
+main{
+    height: 25rem;
+}
+
+.projeto{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: space-around;
+    text-align: right;
+}
+
+header{
+    height: 7rem;
+    border-top: 0.2rem solid;
+}
+
+.sites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
