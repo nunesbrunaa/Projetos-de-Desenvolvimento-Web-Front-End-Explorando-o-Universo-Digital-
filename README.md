@@ -10,6 +10,7 @@ problemas e desenvolvimento de pequenos projetos ☼
 
 #### Projetos do Modulo 1:
 
+<u>Este é um texto sublinhado</u>
 perfil-usuario
 <u>card</u>
 <sub> mod1-projetocorporativo </sub>
