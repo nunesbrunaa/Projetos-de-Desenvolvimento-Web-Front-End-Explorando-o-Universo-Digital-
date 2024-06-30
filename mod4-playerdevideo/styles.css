@@ -1,0 +1,246 @@
+:root{
+    --border-radius-tamanho: 10px;
+    --bg-fundo-color: rgb(194, 229, 241);
+    --wrapper: rgba(245, 117, 192);
+    --color-icon: #005cc8;
+    --progress-value: 75%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    background: lightblue;
+}
+
+body, .video-controls, .options, .video-timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: auto;
+    height: 94%;
+    position: relative;
+    top: 1rem;
+    border-radius: var(--border-radius-tamanho);
+    overflow: hidden;
+}
+
+.container video{
+   height: auto;
+   width: 100%;
+   border-radius: var(--border-radius-tamanho);
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.wrapper::before{
+    content: "";
+    width: 100%;
+    height: calc(100%  + 80px);
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    background: linear-gradient(to top, var(--wrapper), transparent);
+}
+
+.video-controls{
+    padding: 5px 20px 10px;
+}
+
+.options{
+    width: 100%;
+}
+
+.options button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: var(--color-icon);
+}
+
+.options:first-child{
+    justify-content: flex-start;
+}
+
+.options:last-child{
+    justify-content: flex-end;
+}
+
+button:where(i, span){
+    height: 5%;
+    width: 100%;
+    line-height: 40px;
+}
+
+.options input{
+    height: 4px;
+    max-width: 75px;
+    margin: 0 10px;
+    color: var(--color-icon);
+}
+
+.options input[type="range"]:hover{
+    height: 10px;
+}
+
+.videot-timer{
+    font-size: 20px;
+}
+
+.separador{
+    margin: 0 5px;
+}
+
+.video-timeline{
+    height: 7px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.progress-area{
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+}
+
+.progress-bar{
+    width: var(--progress-value);
+    height: 100%;
+    position: relative;
+
+    background-color: var(--color-icon);
+}
+
+.progress-bar::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: var(--border-radius-tamanho);
+
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+    background: #FFF;
+    transform: translateY(-50%);
+}
+
+.progress-area span{
+    position: absolute;
+    left: var(--progress-value);
+    top: -28px;
+    font-size: 20px;
+    color: var(--icons-color);
+
+    transform: translateX(-65%);
+}
+
+.progress-bar::before, 
+.progress-area span{
+    display: none;
+}
+
+.video-timeline:hover .progress-bar::before,
+.video-timeline:hover .progress-area span{
+    display: block;
+}
+
+.speed{
+    position: relative;
+}
+
+.speed-options{
+    position: absolute;
+    left: 15px;
+    bottom: 40px;
+
+    list-style: none;
+    pointer-events: none;
+    color: var(--bg-fundo-color);
+    border-radius: 5px;
+    width: 70px;
+
+    overflow: hidden;
+    background-color: var(--icons-color);
+
+    opacity: 0;
+}
+
+.speed-options.amostradinha{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.speed-options li{
+    margin: 2px 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.speed-options li:where(:first-child, :last-child){
+    margin: 0;
+}
+
+.speed-options li:hover{
+    background-color: var(--bg-fundo-color);
+}
+
+.speed-options li.ativa{
+    background: rgb(197, 228, 239);
+    color:  #fff;
+}
+
+.fa-solid fa-volume-high{
+    color: var(--icons-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+speed-options{
+    display: none;
+}

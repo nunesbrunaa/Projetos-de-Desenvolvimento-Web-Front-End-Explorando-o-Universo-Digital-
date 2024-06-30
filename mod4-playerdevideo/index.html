@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orla de Santos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- vai construir o player... -->
+    <div class="container"> <!-- container geralzão -->
+        <div class="wrapper"> <!-- container da timeline e da lista de controles -->
+            <div class="video-timeline"> <!-- container da timeline -->
+                <div class="progress-area"> <!-- container de progresso -->
+                    <span>00:00</span>
+                    <div class="progress-bar"></div>
+                </div>
+            </div> <!-- container da timeline -->
+           
+            <ul class="video-controls"> <!-- lista de controles -->
+                <li class="options left">
+                    <button class="volume">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </button>
+                    <input type="range"
+                    min="0" max="1" step="any">
+                    <div class="video-timer"> <!-- container de timer -->
+                        <p class="current-time">00:00</p>
+                        <p class="separador">/</p>
+                        <p class="video-duration">00:00</p>
+                    </div>
+                </li> <!-- controles da esquerda -->
+ 
+                <li class="options center">
+                    <button class="passa-tras">
+                        <i class="fas fa-backward"></i>
+                    </button> <!-- botao de voltar -->
+ 
+                    <button class="play-pause">
+                        <i class="fas fa-play"></i>
+                    </button> <!-- botao de play/pause -->
+                   
+                    <button class="passa-frente">
+                        <i class="fas fa-forward"></i>
+                    </button> <!-- botao de avançar -->
+                </li> <!-- controles de centro -->
+               
+                <li class="options right">
+                    <!-- controle de velocidade -->
+                        <div class="speed"> <!-- container de velocidade -->
+                            <button class="btn-speed">
+                                <span class="material-symbols-rounded">
+                                    slow_motion_video
+                                </span>
+                            </button>
+                            <ul class="speed-options">
+                                <li data-speed="2">2x</li>
+                                <li data-speed="1.5">1.5x</li>
+                                <li data-speed="1" class="ativa">Normal</li>
+                                <li data-speed="0.5">0.5x</li>
+                                <li data-speed="0.25">0.25x</li>
+                            </ul>
+                        </div> <!-- container de velocidade -->
+                    <!-- controle de velocidade -->
+ 
+                    <!-- controle de visualização -->
+                        <button class="janela">
+                            <span class="material-icons">
+                                picture_in_picture_alt
+                            </span>
+                        </button>
+                    <!-- controle de visualização -->
+ 
+                    <!-- controle de tela cheia -->
+                        <button class="fullscreen">
+                            <i class="fa-solid fa-expand"></i>
+                        </button>
+                    <!-- controle de tela cheia -->
+                </li> <!-- controles de direita -->
+            </ul> <!-- lista de controles -->
+        </div> <!-- container da timeline e da lista de controles -->
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        <!-- vamos incluir o video -->
+        <video poster="video/2024-06-23 (1).png">
+            <!-- formatos diferentes do mesmo video -->
+            <source src="video/598183ff96ef496cacfc8b32231b9e23.mp4" type="video/mp4">
+            <source src="video/598183ff96ef496cacfc8b32231b9e23.mov" type="video/MOV">
+            <!-- caso o navegador não suporte a tag <video> -->
+            <p>
+                Seu navegador não suporta vídeos em HTML5.
+                Aqui está um <a href="#">link para o vídeo</a>!
+            </p>
+        </video>
+    </div> <!-- container geralzão -->
+
+    <script src="script.js"></script>
+</body>
+</html>
