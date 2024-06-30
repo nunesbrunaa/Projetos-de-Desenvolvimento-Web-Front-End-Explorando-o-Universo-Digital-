@@ -10,10 +10,10 @@ problemas e desenvolvimento de pequenos projetos ☼
 
 #### Projetos do Modulo 1:
 
-<sub>perfil-usuario</sub>
-<sub>card</sub>
-<sub>mod1-projetocorporativo</sub>
-<sub>mod1-projetofreela</sub>
+perfil-usuario
+<sub> card </sub>
+<sub> mod1-projetocorporativo </sub>
+<sub> mod1-projetofreela </sub>
 
 ### Design de Páginas Web
 
