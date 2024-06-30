@@ -1,23 +1,18 @@
 ## Desenvolvimento Web Front-End – 240h
 ####  Escola do Futuro de Goiás
 
-. Aulas expositivas e atividades práticas baseadas na resolução de
-problemas e desenvolvimento de pequenos projetos
+☼ Aulas expositivas e atividades práticas baseadas na resolução de
+problemas e desenvolvimento de pequenos projetos ☼
 
 ### Introdução ao Desenvolvimento Web
 
-O componente curricular de Introdução ao Desenvolvimento Web reúne
-um conjunto fundamental de conceitos básicos sobre a estrutura da
-internet e como as informações trafegam e são apresentadas em um
-browser. O domínio da linguagem HTML e CSS, o conhecimento do
-protocolo TCP/IP e as variações do HTTP, são exemplos de assuntos
-considerados indispensáveis para qualquer profissional da área de
-desenvolvimento web.
+Conceitos básicos:
+☼ Estrutura da internet;
+☼ Como as informações trafegam e são apresentadas em um browser
+☼ O domínio da linguagem HTML e CSS
+☼ Conhecimento do protocolo TCP/IP 
+☼ Variações do HTTP.
 
-Apresentar a estrutura geral da internet;
-Apresentar a linguagem de marcação HTTP e a estrutura dos estilos
-CSS;
-Exercitar a codificação páginas Web usando HTTP e CSS
 
 1. Introdução à estrutura básica da internet; modelo cliente servidor;
 protocolos de comunicação TCP/IP, HTTP, HTTPS; navegadores de
