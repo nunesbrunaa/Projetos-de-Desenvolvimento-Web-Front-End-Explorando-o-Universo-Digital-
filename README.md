@@ -24,49 +24,10 @@ dispositivos ☼ Noções da área de Interação Humano Computador (IHC) ☼ Ex
 
 ### Frameworks para Web Front-End
 
-O mercado de trabalho exige o aprimoramento constante de suas
-atividades. Por esse motivo há uma intensa busca por inovações
-tecnológicas que dêem a capacidade de empresas serem competitivas, adotando ferramentas e padrões que permitam o aumento da
-produtividade e alinhamento com as tendências tecnológicas atuais. A
-componente curricular de Frameworks para Web Front-end dá ao aluno
-a possibilidade de dominar tecnologias novas para o desenvolvimento
-web front-end e se atualizar conforme as demandas atuais do mercado.
-
-web front-end e se atualizar conforme as demandas atuais do mercado. Objetivos
-Apresentar frameworks e bibliotecas para o desenvolvimento web front- end;
-Apresentar diferentes paradigmas de desenvolvimento web front-end
-
-Visão geral de frameworks e bibliotecas modernas em Javascript;
-bibliotecas de estilos responsivos; aplicações de página única;
-programação web baseada em componentes e programação web
-declarativa; frameworks React, Vue e Angular
-
-Desenvolver interfaces web em diferentes paradigmas de programação
-web. Declarar, manipular e especificar componentes e TAGs usando
-frameworks e bibliotecas modernas. Desenvolver interfaces web usando
-frameworks front-end
+☼ Dominar tecnologias novas ☼ Visão geral de frameworks e bibliotecas modernas em Javascript ☼ Organizar o desenvolvimento de interfaces de usuário. ☼ Desenvolver interfaces ☼
 
 ### Projeto prático Web Front-End
 
-O mercado de trabalho exige o aprimoramento constante de suas
-atividades. Por esse motivo há uma intensa busca por inovações
-tecnológicas que dêem a capacidade de empresas serem competitivas, adotando ferramentas e padrões que permitam o aumento da
-produtividade e alinhamento com as tendências tecnológicas atuais. A
-componente curricular de Prática de Desenvolvimento Web Front-end
-dá ao aluno a possibilidade de dominar tecnologias novas para o
-desenvolvimento web front-end e se atualizar conforme as demandas
-atuais do mercado
+☼ Exercitar a prática de desenvolvimento web-front end ☼ Apresentar as etapas de desenvolvimento de interfaces web ☼ aplicações de página única ☼ programação web baseada em componentes ☼ programação web declarativa ☼ frameworks React, Vue e Angular ☼ Declarar, manipular e especificar componentes e TAGs ☼
 
-Exercitar a prática de desenvolvimento web-front end;
-Apresentar as etapas de desenvolvimento de interfaces web;
-Agregar e coordenar conhecimentos para a implementação de páginas;
-Treinar o desenvolvimento web front-end com o uso de diferentes
-paradigmas de programação web.
-
-Desenvolvimento prático de uma interface de usuário em Javascript com
-o auxílio de bibliotecas modernas e consagradas na área de
-desenvolvimento web front-end.
-
-1. Organizar o desenvolvimento de interfaces de usuário. 2. Assimilar novas tecnologias de desenvolvimento;
-3. Desenvolver interfaces com o auxílio de bibliotecas modernas para o
-desenvolvimento web front-end. 4. Desenvolver interfaces 
+###### ☼ Desenvolvimento prático de uma interface de usuário em Javascript com o auxílio de bibliotecas modernas e consagradas na área de desenvolvimento web front-end ☼
