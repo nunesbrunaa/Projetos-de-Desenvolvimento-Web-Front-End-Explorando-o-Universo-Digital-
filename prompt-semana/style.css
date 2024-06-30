@@ -1,0 +1,13 @@
+body{
+    height: 100vh;    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#resp{
+    color: darkmagenta;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+}
