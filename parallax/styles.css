@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#parallax-header{
+   background-image: url(img/ilha-dos-frades-2.webp);
+}
+
+#parallax-litoral{
+    background-image: url(img/istockphoto-1316314496-612x612.jpg);
+}
+
+#parallax-historia{
+    background-image: url(img/slide-333.jpg);
+}
+
+ 
+section {
+    height: 15vh;
+    background-color: #dcebff;
+}
+ 
+.parallax {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    color: #dcebff;
+}
+
+h2{
+    color: #e5a721;
+}
+
+.subtitulo{
+    font-size: 2rem;
+    color: #5883bc;
+    align-content: center;
+    padding-left: 25rem;
+}
