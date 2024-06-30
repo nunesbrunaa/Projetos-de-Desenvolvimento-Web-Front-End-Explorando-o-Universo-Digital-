@@ -8,9 +8,12 @@ problemas e desenvolvimento de pequenos projetos ☼
 
 ☼ Estrutura da internet ☼ Como as informações trafegam e são apresentadas em um browser ☼ O domínio da linguagem HTML e CSS ☼ Conhecimento do protocolo TCP/IP ☼ Variações do HTTP ☼ Modelo cliente servidor ☼ Editores de HTML e CSS ☼
 
-#### <span style="color🟪"> Projetos do Modulo 1:</span>
+#### Projetos do Modulo 1:
 
-<sub>texto subscrito</sub>
+<sub>perfil-usuario</sub>
+<sub>card</sub>
+<sub>mod1-projetocorporativo</sub>
+<sub>mod1-projetofreela</sub>
 
 ### Design de Páginas Web
 
