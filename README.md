@@ -11,39 +11,16 @@ problemas e desenvolvimento de pequenos projetos ☼
 
 ### Design de Páginas Web
 
-☼ Experiência do usuário (User Experience - UX) ☼ Conforto visual ☼ rapidez de acesso ☼ informação e os aspectos de acessibilidade e portabilidade entre
-dispositivos. ☼ noções da área de Interação Humano Computador (IHC) ☼ Exercitar o uso de bibliotecas responsivas no desenvolvimento de páginas web estáticas ☼ padrões de desenvolvimento web ☼ ferramentas de design visual ☼ melhores práticas de tipografia ☼
+☼ Experiência do usuário (User Experience - UX) ☼ Conforto visual ☼ Rapidez de acesso ☼ Informação e os aspectos de acessibilidade e portabilidade entre
+dispositivos ☼ Noções da área de Interação Humano Computador (IHC) ☼ Exercitar o uso de bibliotecas responsivas no desenvolvimento de páginas web estáticas ☼ Padrões de desenvolvimento web ☼ Ferramentas de design visual ☼ Melhores práticas de tipografia ☼
 
 ### Linguagem Javascript para Web
 
-☼ Apresentar Linguagem Javascript para Web ☼ capacidade de programação de páginas web, sendo a principal linguagem na comunidade de desenvolvimento web ☼ estruturas de controle ☼ objeto DOM ☼ objetos window ☼ Eventos ☼ representação gráfica e elementos gráficos ☼ Aspectos de segurança ☼ empregar ☼ Manipular páginas Web usando Javascript ☼
-bibliotecas no desenvolvimento web.
+☼ Apresentar Linguagem Javascript para Web ☼ Capacidade de programação de páginas web, sendo a principal linguagem na comunidade de desenvolvimento web ☼ Estruturas de controle ☼ Objeto DOM ☼ Objetos window ☼ Eventos ☼ Representação gráfica e Elementos gráficos ☼ Aspectos de segurança ☼ Manipular páginas Web usando Javascript ☼ bibliotecas no desenvolvimento web ☼
 
 ### Criação e Edição Multimídia
 
-O componente curricular de Criação e Edição de Imagem e Vídeo
-fornece a competência de trabalhar em pequenos projetos gráficos para a
-construção de páginas web. A demanda desse profissional é constante, uma vez que o aspecto visual das páginas está cada vez mais
-aprimorado, sendo elemento fundamental para a construção de
-interfaces web modernas e agradáveis
-
-Apresentar ferramentas de edição e criação de imagens;
-Apresentar ferramentas de edição e composição de vídeo. Desenvolver habilidades nos programas de criação de imagens e vídeos;
-Capacitar os alunos para desenvolverem de pequenos projetos gráfico
-
-Ferramentas de edição de imagem; imagens vetoriais e bitmaps;
-operação e ferramentas básicas de edição; trabalho com camadas e
-máscaras; manipulação de imagens e textos; ferramentas de pintura;
-reparos em imagens; efeitos gráficos; filtros; introdução a editores de
-vídeo; organização e fluxo de operação de editores de vídeo;
-Ferramentas de edição de vídeo; Edição não linear; Controle de
-velocidade; Composições; Transições; OpenFX; Criação de Textos Subtítulos, Legendas, Closed Caption; Edição e Mixagem de áudio;
-Exportação, backup. prática com as ferramentas GIMP, Inkscape e
-DaVinci Resolve
-
-Criar e editar imagens; manipular elementos visuais em editores de
-imagens bitmap e vetoriais; aplicar filtros e efeitos em imagens; editar
-pequenos vídeos; aplicar a composição de vídeos e outras mídias. 2. Criar e editar imagens e vídeos para a Web. 
+☼ Criação e Edição de Imagem e Vídeo ☼ Construção de páginas web ☼ Interfaces web modernas e agradáveis ☼ Ferramentas de edição ☼ Representação gráfica e elementos gráficos ☼ Imagens vetoriais e bitmaps ☼ Trabalho com camadas e máscaras ☼
 
 ### Frameworks para Web Front-End
 
