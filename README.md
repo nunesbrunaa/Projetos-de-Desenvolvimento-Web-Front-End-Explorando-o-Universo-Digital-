@@ -1,1 +1,2 @@
-Projetos de Desenvolvimento Web Front-End: Explorando o Universo Digital 🚀
+## Desenvolvimento Web Front-End – 240h
+
