@@ -11,7 +11,7 @@ problemas e desenvolvimento de pequenos projetos ☼
 #### Projetos do Modulo 1:
 
 perfil-usuario
-<sub> card </sub>
+<sup> card </sup>
 <sub> mod1-projetocorporativo </sub>
 <sub> mod1-projetofreela </sub>
 
