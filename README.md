@@ -4,11 +4,11 @@
 ☼ Aulas expositivas e atividades práticas baseadas na resolução de
 problemas e desenvolvimento de pequenos projetos ☼
 
-###  <span style="color:purple">Introdução ao Desenvolvimento Web</span>
+### Introdução ao Desenvolvimento Web
 
 ☼ Estrutura da internet ☼ Como as informações trafegam e são apresentadas em um browser ☼ O domínio da linguagem HTML e CSS ☼ Conhecimento do protocolo TCP/IP ☼ Variações do HTTP ☼ Modelo cliente servidor ☼ Editores de HTML e CSS ☼
 
-#### ☼ Projetos do Modulo 1:
+#### <span style="color🟪"> Projetos do Modulo 1:</span>
 
 <sub>texto subscrito</sub>
 
